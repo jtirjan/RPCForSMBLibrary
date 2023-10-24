@@ -31,11 +31,6 @@ namespace SMBLibrary.Services
         public void Write(NDRWriter writer)
         {
             throw new NotImplementedException();
-            writer.BeginStructure();
-            writer.WriteUInt32(Entries);
-
-            writer.WriteEmbeddedStructureFullPointer(Names);
-            writer.EndStructure();
         }
     }
 }
