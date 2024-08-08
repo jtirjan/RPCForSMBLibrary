@@ -17,11 +17,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SMBLibrary" Version="1.5.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\SMBLibrary\Utilities\Utilities.csproj" />
+    <PackageReference Include="SMBLibrary" Version="1.5.3.4" />
   </ItemGroup>
 
 </Project>
